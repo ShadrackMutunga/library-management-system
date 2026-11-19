@@ -12,7 +12,6 @@ export class UsersService {
         id: true,
         email: true,
         role: true,
-        createdAt: true,
       },
     });
     return user;
